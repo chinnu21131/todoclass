@@ -28,7 +28,7 @@ class Todo
       end
     elsif (due_today?)
 	"[ ] #{@todo}"
-      else
+       else
 	"[ ] #{@todo} #{@due_date}"      
     end
   end
